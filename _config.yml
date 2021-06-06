@@ -67,7 +67,7 @@ collections:
     output: true
     permalink: /:title/
     order:  # Order of displaying pages in the header (matters only if header enabled)
-      - home.md
+      - "home.md"
       - "news.md"
   courses:
     output: true
@@ -94,7 +94,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      featured: true
+      featured: false
 
   - scope:
       path: ""
