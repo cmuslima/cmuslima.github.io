@@ -13,10 +13,30 @@ Write an extended autobiography here. It's your opportunity to show off your res
 
 You can use Markdown syntax to create sections, links and place images in your content.   
 
-## Publications
-- Awesome Person. 2020. "How we can survive the global warming." Nature 149.
-- Awesome Person and Company. 2019. "LIFE 101: Essential Skills for a successful life." Science 150.
 
-## Teaching
-If you're doing a lecture or a TAship, you may want to list your courses here. See the README file for more information. 
-{% include courses.html %}
+<button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+<button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+<button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+
+<div id="Home" class="tabcontent">
+  <h3>Home</h3>
+  
+</div>
+
+<div id="News" class="tabcontent">
+  <h3>News</h3>
+  <p>Some news this fine day!</p>
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>Contact</h3>
+  <p>Get in touch, or swing by for a cup of coffee.</p>
+</div>
+
+<div id="About" class="tabcontent">
+  <h3>About</h3>
+  <p>Who we are and what we do.</p>
+</div>
+
+
