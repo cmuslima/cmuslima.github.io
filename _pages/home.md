@@ -38,5 +38,3 @@ You can use Markdown syntax to create sections, links and place images in your c
   <h3>About</h3>
   <p>Who we are and what we do.</p>
 </div>
-
-
