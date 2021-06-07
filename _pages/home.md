@@ -9,9 +9,7 @@ description: > # try to keep it the same as _config.yml > description field, whi
   the University of Alberta a member of the Intelligent Robot Learning Laboratory.
 ---
 
-Write an extended autobiography here. It's your opportunity to show off your research, goals and accomplishments.
-
-You can use Markdown syntax to create sections, links and place images in your content.   
+Hey
 
 
 <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
