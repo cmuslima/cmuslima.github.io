@@ -18,15 +18,11 @@ Short description about myself goes here
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {box-sizing: border-box}
-
-/* Set height of body and the document to 100% */
 body, html {
   height: 100%;
   margin: 0;
   font-family: Arial;
 }
-
-/* Style tab links */
 .tablink {
   background-color: #555;
   color: white;
@@ -38,11 +34,9 @@ body, html {
   font-size: 17px;
   width: 25%;
 }
-
 .tablink:hover {
   background-color: #777;
 }
-
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
   color: white;
@@ -50,7 +44,6 @@ body, html {
   padding: 100px 20px;
   height: 100%;
 }
-
 #Home {background-color: red;}
 #News {background-color: green;}
 #Contact {background-color: blue;}
