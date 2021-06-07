@@ -9,7 +9,6 @@ description: > # try to keep it the same as _config.yml > description field, whi
   the University of Alberta a member of the Intelligent Robot Learning Laboratory.
 ---
 
-Short description about myself goes here
 
 <html lang="en">
 <head>
