@@ -13,9 +13,9 @@ Hey
 
 
 <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
-<button class="tablink" onclick="openPage('Research', this, 'green')" id="defaultOpen">News</button>
-<button class="tablink" onclick="openPage('Teaching', this, 'blue')">Contact</button>
-<button class="tablink" onclick="openPage('Outreach', this, 'orange')">About</button>
+<button class="tablink" onclick="openPage('Research', this, 'green')" id="defaultOpen">Research</button>
+<button class="tablink" onclick="openPage('Teaching', this, 'blue')">Teaching</button>
+<button class="tablink" onclick="openPage('Outreach', this, 'orange')">Outreach</button>
 
 <div id="Home" class="tabcontent">
   <h3>Home</h3>
