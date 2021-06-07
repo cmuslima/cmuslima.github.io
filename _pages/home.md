@@ -2,7 +2,7 @@
 layout: home
 title: Awesome Person
 permalink: /
-navigation: false
+navigation: true
 navigation_name: Home
 description: > # try to keep it the same as _config.yml > description field, which is used as a fallback for pages without description or excerpt.
   The Personal webpage of Awesome Person, Graduate Student with the Department of Computing Science at
