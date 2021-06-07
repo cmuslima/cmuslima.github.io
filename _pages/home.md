@@ -9,7 +9,7 @@ description: > # try to keep it the same as _config.yml > description field, whi
   the University of Alberta a member of the Intelligent Robot Learning Laboratory.
 ---
 
-Hey
+Short description about myself goes here
 
 
 <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
@@ -35,3 +35,41 @@ Hey
   <h3>Outreach</h3>
   <p>Who we are and what we do.</p>
 </div>
+
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: red;}
+#Research {background-color: green;}
+#Teaching {background-color: blue;}
+#Outreach {background-color: orange;}
