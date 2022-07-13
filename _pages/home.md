@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Awesome Person
+title: Calarina Muslimani
 permalink: /
 navigation: true
 navigation_name: Home
