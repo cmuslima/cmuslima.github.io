@@ -1,8 +1,8 @@
 ---
+layout: post
 title: Sample Update 1
 ---
 
-What comes after this paragraph, won't be visible on the homepage.
 
 <!--more-->
 
