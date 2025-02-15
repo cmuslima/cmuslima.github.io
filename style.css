@@ -3,20 +3,21 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #F8E7F0; /* Light text color for contrast */
+    background-color: #28111B; /* Dark pink background */
 }
 
 header {
-    background-color: #f8f9fa;
+    background-color: #4A044E; /* Darker pink for header */
     padding: 3rem 2rem;
     text-align: center;
-    border-bottom: 1px solid #dee2e6;
+    border-bottom: none; /* Remove the border */
 }
 
 nav {
-    background-color: #fff;
+    background-color: #673A6F; /* Pink for nav */
     padding: 1rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: none; /* Remove the shadow */
     position: sticky;
     top: 0;
     z-index: 100;
@@ -26,18 +27,22 @@ nav {
 nav a {
     margin: 0 1rem;
     text-decoration: none;
-    color: #495057;
+    color: #F8E7F0; /* Light link color */
     font-weight: 500;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
 }
 
 nav a:hover {
-    color: #0056b3;
+    color: #D5B8E4; /* Lighter pink on hover */
 }
 
 main {
     max-width: 900px;
     margin: 2rem auto;
     padding: 0 2rem;
+    background-color: #3C1053; /* Darker pink for main */
+    border-radius: 8px; /* Optional: Rounded corners for main */
+    padding: 3rem 2rem; /* Increased padding for better spacing */
 }
 
 .profile-img {
@@ -45,8 +50,8 @@ main {
     height: 180px;
     border-radius: 50%;
     margin-bottom: 1.5rem;
-    border: 3px solid #fff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: 3px solid #F8E7F0; /* Light border */
+    box-shadow: none; /* Remove the shadow */
 }
 
 section {
@@ -56,27 +61,28 @@ section {
 .research-item, .advocacy-item, .cv-item {
     margin-bottom: 2rem;
     padding: 1.5rem;
-    background: #f8f9fa;
+    background: #4A044E; /* Darker pink for item backgrounds */
     border-radius: 4px;
+    color: #F8E7F0; /* Light text within items */
 }
 
 .date {
-    color: #666;
+    color: #D5B8E4; /* Lighter pink for date */
     font-size: 0.9em;
 }
 
 footer {
     text-align: center;
     padding: 2rem;
-    background-color: #f8f9fa;
-    border-top: 1px solid #dee2e6;
-    margin-top: 3rem;
+    background-color: #4A044E; /* Darker pink for footer */
+    border-top: none; /* Remove the border */
+    color: #F8E7F0; /* Light text color */
 }
 
 h1, h2 {
-    color: #0056b3;
+    color: #F8E7F0; /* Light color for headings */
 }
 
 h3 {
-    color: #495057;
+    color: #D5B8E4; /* Lighter pink for h3 */
 }
