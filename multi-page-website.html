@@ -1,0 +1,258 @@
+// index.html (Home/About page)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="/api/placeholder/180/180" alt="Your Profile Picture" class="profile-img">
+        <h1>Your Name, Ph.D.</h1>
+        <p>Research • Advocacy • Policy</p>
+    </header>
+
+    <nav>
+        <a href="index.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="advocacy.html">Advocacy</a>
+        <a href="cv.html">CV</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a researcher and advocate focused on [your field]. My work bridges the gap between academic research and practical policy implementation.</p>
+            <p>Currently, I am [your current position] at [institution/organization].</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: your.email@institution.edu</p>
+            <p>Office: Your Institution Name</p>
+            <p>Twitter: @YourHandle</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+// research.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Research</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="advocacy.html">Advocacy</a>
+        <a href="cv.html">CV</a>
+        <a href="index.html#contact">Contact</a>
+    </nav>
+
+    <main>
+        <h1>Research</h1>
+        
+        <section class="publication">
+            <h2>Current Research</h2>
+            <div class="research-item">
+                <h3>Project Title</h3>
+                <p class="date">2023-Present</p>
+                <p>Detailed description of your current research project...</p>
+            </div>
+        </section>
+
+        <section class="publication">
+            <h2>Publications</h2>
+            <div class="research-item">
+                <h3>Publication Title</h3>
+                <p class="date">2024</p>
+                <p>Authors, Journal Name</p>
+                <p>Abstract and key findings...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+// advocacy.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Advocacy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="advocacy.html">Advocacy</a>
+        <a href="cv.html">CV</a>
+        <a href="index.html#contact">Contact</a>
+    </nav>
+
+    <main>
+        <h1>Advocacy</h1>
+        
+        <div class="advocacy-item">
+            <h2>Current Initiative</h2>
+            <p>Detailed description of your current advocacy work...</p>
+        </div>
+
+        <div class="advocacy-item">
+            <h2>Past Campaigns</h2>
+            <p>Overview of past advocacy efforts and their impacts...</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+// cv.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="advocacy.html">Advocacy</a>
+        <a href="cv.html">CV</a>
+        <a href="index.html#contact">Contact</a>
+    </nav>
+
+    <main>
+        <h1>Curriculum Vitae</h1>
+        
+        <section class="cv-section">
+            <h2>Education</h2>
+            <div class="cv-item">
+                <p><strong>Ph.D. in [Field]</strong></p>
+                <p class="date">University Name, 2018-2022</p>
+            </div>
+        </section>
+
+        <section class="cv-section">
+            <h2>Professional Experience</h2>
+            <div class="cv-item">
+                <p><strong>Current Position</strong></p>
+                <p class="date">Organization Name, 2022-Present</p>
+                <p>Description of responsibilities and achievements...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+// style.css
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 3rem 2rem;
+    text-align: center;
+    border-bottom: 1px solid #dee2e6;
+}
+
+nav {
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #495057;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #0056b3;
+}
+
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+.profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+.research-item, .advocacy-item, .cv-item {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 4px;
+}
+
+.date {
+    color: #666;
+    font-size: 0.9em;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+    margin-top: 3rem;
+}
+
+h1, h2 {
+    color: #0056b3;
+}
+
+h3 {
+    color: #495057;
+}
