@@ -41,7 +41,7 @@ main {
 }
 
 .profile-img {
-    width: 300px;  /* Or whatever size you want */
+    width: 255px;  /* Or whatever size you want */
     height: 340px; /* Or whatever size you want */
     border-radius: 50%;
     margin-bottom: 1.5rem;
