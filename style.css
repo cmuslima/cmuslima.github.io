@@ -94,3 +94,28 @@ h1 {
 h2, h3 {
     color: #495057;
 }
+.profile-container {
+    display: flex;
+    align-items: center; /* Align image and text */
+    justify-content: center; /* Center them in the container */
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.profile-img {
+    width: 255px;
+    height: 340px;
+    border-radius: 20%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-right: 2rem; /* Space between image and text */
+}
