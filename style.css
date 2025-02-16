@@ -119,3 +119,13 @@ h2, h3 {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     margin-right: 2rem; /* Space between image and text */
 }
+
+.profile-text h1 {
+    margin-bottom: 0.5rem; /* Adds a small gap between name and title */
+}
+
+.subtitle {
+    font-size: 1.2rem; /* Adjusts font size if needed */
+    font-weight: normal;
+    color: #495057;
+}
