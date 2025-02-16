@@ -53,9 +53,12 @@ main {
 
 header h1 {
     margin: 0; /* Remove default h1 margin */
+    text-align: center; /* Center the text */
 }
+
 header p {
     margin: 0; /* Remove default p margin */
+    text-align: center; /* Center the text */
 }
 
 section {
