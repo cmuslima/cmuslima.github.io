@@ -85,10 +85,10 @@ footer {
     margin-top: 3rem;
 }
 
-h1, h2 {
+h1 {
     color: #b3007a;
 }
 
-h3 {
+h2, h3 {
     color: #495057;
 }
