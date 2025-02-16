@@ -43,7 +43,7 @@ main {
 .profile-img {
     width: 255px;  /* Or whatever size you want */
     height: 340px; /* Or whatever size you want */
-    border-radius: 50%;
+    border-radius: 20%;
     /* margin-bottom: 1.5rem; */
     object-fit: cover; /* Essential for circular images */
     border: 3px solid #fff;
