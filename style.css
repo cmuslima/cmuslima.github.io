@@ -9,7 +9,8 @@ body {
 header {
     background-color: #f8f9fa;
     padding: 3rem 2rem;
-    text-align: center;
+    display: flex; /* Enable flexbox */
+    align-items: center; /* Vertically center content */
     border-bottom: 1px solid #dee2e6;
 }
 
@@ -41,13 +42,20 @@ main {
 }
 
 .profile-img {
-    width: 255px;  /* Or whatever size you want */
-    height: 340px; /* Or whatever size you want */
+    width: 255px;
+    height: 340px;
     border-radius: 20%;
-    /* margin-bottom: 1.5rem; */
-    object-fit: cover; /* Essential for circular images */
+    object-fit: cover;
     border: 3px solid #fff;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-right: 2rem; /* Add space to the right of the image */
+}
+
+header h1 {
+    margin: 0; /* Remove default h1 margin */
+}
+header p {
+    margin: 0; /* Remove default p margin */
 }
 
 section {
