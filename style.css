@@ -44,7 +44,7 @@ main {
     width: 255px;  /* Or whatever size you want */
     height: 340px; /* Or whatever size you want */
     border-radius: 50%;
-    margin-bottom: 1.5rem;
+    /* margin-bottom: 1.5rem; */
     border: 3px solid #fff;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
