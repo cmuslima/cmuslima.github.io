@@ -12,3 +12,9 @@ The website provides information about Calarina's academic background, research 
 - **Advocacy**: Information on advocacy and outreach activities. (associated file: advocacy.html)
 
 
+## Hosted by Github
+Follow this link to get it setup:
+https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+
+
+
